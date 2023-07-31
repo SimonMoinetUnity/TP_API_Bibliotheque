@@ -4,11 +4,11 @@ package com.example.demo.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.pojo.Categorie;
+import com.example.demo.pojo.Client;
 
 
 @Repository
-public interface CategorieRepository extends JpaRepository<Categorie, Integer> {
+public interface ClientRepository extends JpaRepository<Client, Integer> {
 	
 	
 	
